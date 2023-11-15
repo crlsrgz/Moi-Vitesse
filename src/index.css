@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Yeseva;
+  src: url("./assets/fonts/Yeseva/YesevaOne-Regular.ttf");
+}
+@font-face {
+  font-family: Urbanist-Medium;
+  src: url("./assets/fonts/Urbanist/Urbanist-Medium.ttf");
+}
