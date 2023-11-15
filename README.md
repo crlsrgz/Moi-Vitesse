@@ -12,9 +12,13 @@ npm i
 
 ## Usage
 
+### Development
+
 ```bash
 npm run dev
 ```
+
+### Production
 
 ```bash
 npm build
@@ -31,7 +35,13 @@ npm build
 - master branch
   - react
   - react-dom
-- trois branch
+  - react-router-dom
+- trois branch (TODO)
+  - three
+  - @react-three/fiber
+  - @react-three/drei
+  - r3f-perf
+  - leva
 
 ## Development Dependencies
 
@@ -55,4 +65,3 @@ npm build
 - React and EsLint configuration from this course page [Intro to React](https://react-v8.holt.courses/)
 - Tailwind Configuration from
   [Tooabstractive](https://tooabstractive.com/how-to-tech/no-utility-classes-were-detected-in-your-source-files-fixed//)
-

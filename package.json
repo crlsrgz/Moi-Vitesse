@@ -1,8 +1,13 @@
 {
   "name": "moi_vite",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.1",
+  "description": "Vite boiler plate for react and r3f",
+  "main": "main.jsx",
+  "repository": {
+    "type": "git", 
+    "url": "https://github.com/crlsrgz/Moi-Vitesse"
+  },
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,9 +16,9 @@
     "lint": "eslint \"src/**/*.{js,ts,jsx,tsx}\" --quiet",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["ViteJS","ReactJS", "R3F", "ThreeJS"],
+  "author": "crlsrgz",
+  "license": "MIT",
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.7",
     "@vitejs/plugin-react": "^4.1.1",
