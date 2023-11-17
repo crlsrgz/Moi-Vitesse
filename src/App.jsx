@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+// import numberIcon from "/number19-svgrepo-com.png";
+import numberIcon from "/number19-svgrepo-com.png";
+import plusIcon from "./assets/img/math-plus-box-svgrepo-com.svg";
 
 const App = () => {
   const [state, setState] = useState(0);
@@ -11,7 +14,12 @@ const App = () => {
 
   return (
     <main className="m-10 p-0">
-      <h1 className="font-yeseva text-8xl">Boilerplate</h1>
+      <header className="flex h-auto flex-row gap-4">
+        <img src={numberIcon} alt="" width={"100px"} />
+        <img src={plusIcon} alt="" width={"75px"} />
+
+        <h1 className="font-yeseva text-8xl">Boilerplate</h1>
+      </header>
       <h2 className=" m-2 font-urbanistMedium text-3xl">{`Number is ${state}`}</h2>
       <div className="flex flex-row gap-4">
         <button
