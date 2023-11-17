@@ -10,7 +10,7 @@
 
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --emptyOutDir",
     "preview": "vite preview",
     "format": "prettier --write \"src/**/*.{js,ts,jsx,tsx}\"",
     "lint": "eslint \"src/**/*.{js,ts,jsx,tsx}\" --quiet",
