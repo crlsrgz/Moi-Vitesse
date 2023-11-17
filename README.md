@@ -1,10 +1,10 @@
 # Moi
 
-## ViteJS Boilerplate for ReactJS
+## ViteJS Boilerplate for ReactJS and R3F
 
 ## Installation
 
-Clone this repo and install using npm
+Clone this repo and install
 
 ```bash
 npm i
@@ -12,23 +12,17 @@ npm i
 
 ## Usage
 
-### Development
+### Development server
 
 ```bash
 npm run dev
 ```
 
-### Production
+### Production build
 
 ```bash
 npm build
 ```
-
-## Development Feaures
-
-- TailwindCSS
-- EsLint
-- Prettier
 
 ## Dependencies
 
@@ -45,20 +39,24 @@ npm build
 
 ## Development Dependencies
 
-- vite
-- @vitejs/plugin-react
-- tailwindcss
-- autoprefixer
-- postcss
-- @tailwindcss/forms
-- eslint
-- eslint-config-prettier
-- eslint-plugin-import
-- eslint-plugin-jsx-a11y
-- eslint-plugin-react
-- eslint-plugin-react-hooks
-- prettier
-- prettier-plugin-tailwindcss
+- ViteJS
+  - vite
+  - @vitejs/plugin-react
+- TailwindCSS
+  - tailwindcss
+  - autoprefixer
+  - postcss
+  - @tailwindcss/forms
+- EsLint
+  - eslint
+  - eslint-config-prettier
+  - eslint-plugin-import
+  - eslint-plugin-jsx-a11y
+  - eslint-plugin-react
+  - eslint-plugin-react-hooks
+- Prettier
+  - prettier
+  - prettier-plugin-tailwindcss
 
 ### Credits
 
