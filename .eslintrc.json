@@ -1,6 +1,7 @@
 {
   "extends": [
     "eslint:recommended",
+    "plugin:@react-three/all",
     "plugin:import/errors",
     "plugin:react/recommended",
     "plugin:jsx-a11y/recommended",
@@ -10,9 +11,13 @@
   "ignorePatterns": ["vite.config.js" /* other files to ginore */],
   "rules": {
     "react/prop-types": 0,
-    "react/react-in-jsx-scope": 0
+    "react/react-in-jsx-scope": 0,
+    "react/no-unknown-property": [
+      "error",
+      { "ignore": ["/", "args", "position", "attach", "intensity"] }
+    ]
   },
-  "plugins": ["react", "import", "jsx-a11y"],
+  "plugins": ["react", "import", "jsx-a11y", "@react-three"],
   "parserOptions": {
     "ecmaVersion": 2022,
     "sourceType": "module",
