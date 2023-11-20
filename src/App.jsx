@@ -2,6 +2,8 @@ import React, { useState } from "react";
 // import numberIcon from "/number19-svgrepo-com.png";
 import numberIcon from "/number19-svgrepo-com.png";
 import plusIcon from "./assets/img/math-plus-box-svgrepo-com.svg";
+import { Canvas } from "@react-three/fiber";
+import { OrbitControls } from "@react-three/drei";
 
 const App = () => {
   const [state, setState] = useState(0);
@@ -34,6 +36,18 @@ const App = () => {
         >
           Reset
         </button>
+      </div>
+      <div className="m-10 h-80">
+        <Canvas>
+          <OrbitControls />
+          <directionalLight position={[-3, 4, 2]} />
+          <ambientLight intensity={0.1} />
+          <color args={["slategray"]} attach="background" />
+          <mesh>
+            <boxGeometry />
+            <meshStandardMaterial color={"#BADA55"} />
+          </mesh>
+        </Canvas>
       </div>
     </main>
   );
