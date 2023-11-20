@@ -4,10 +4,9 @@
   "description": "Vite boiler plate for react and r3f",
   "main": "main.jsx",
   "repository": {
-    "type": "git", 
+    "type": "git",
     "url": "https://github.com/crlsrgz/Moi-Vitesse"
   },
-
   "scripts": {
     "dev": "vite",
     "build": "vite build --emptyOutDir",
@@ -16,7 +15,12 @@
     "lint": "eslint \"src/**/*.{js,ts,jsx,tsx}\" --quiet",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["ViteJS","ReactJS", "R3F", "ThreeJS"],
+  "keywords": [
+    "ViteJS",
+    "ReactJS",
+    "R3F",
+    "ThreeJS"
+  ],
   "author": "crlsrgz",
   "license": "MIT",
   "devDependencies": {
@@ -37,6 +41,7 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.17.0"
   }
 }
