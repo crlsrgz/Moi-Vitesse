@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-// import numberIcon from "/number19-svgrepo-com.png";
+// eslint-disable-next-line import/no-unresolved
 import numberIcon from "/number19-svgrepo-com.png";
 import plusIcon from "./assets/img/math-plus-box-svgrepo-com.svg";
 import { Canvas } from "@react-three/fiber";
-import { OrbitControls } from "@react-three/drei";
+import { Html, OrbitControls } from "@react-three/drei";
 
 const App = () => {
   const [state, setState] = useState(0);
@@ -37,13 +37,16 @@ const App = () => {
           Reset
         </button>
       </div>
-      <div className="m-10 h-80">
+      <div className="mt-10  h-80 w-2/4">
         <Canvas>
           <OrbitControls />
           <directionalLight position={[-3, 4, 2]} />
           <ambientLight intensity={0.1} />
           <color args={["slategray"]} attach="background" />
           <mesh>
+            <Html occlude center position={[0, 2, 0]}>
+              <h1 className="text-center text-4xl text-zinc-50">{state}</h1>
+            </Html>
             <boxGeometry />
             <meshStandardMaterial color={"#BADA55"} />
           </mesh>
