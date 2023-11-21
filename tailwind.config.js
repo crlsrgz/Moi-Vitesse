@@ -11,6 +11,9 @@ module.exports = {
         yeseva: ["Yeseva", "serif"],
         urbanistMedium: ["Urbanist-Medium", "sans-serif"],
       },
+      cursor: {
+        hand: "url('./src/assets/cursor/hand-svgrepo-com.cur'), pointer",
+      },
     },
   },
   plugins: [require("@tailwindcss/forms")],

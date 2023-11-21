@@ -37,7 +37,7 @@ const App = () => {
           Reset
         </button>
       </div>
-      <div className="mt-10  h-80 w-2/4">
+      <div className="canvas-element mt-10  h-80 w-2/4">
         <Canvas>
           <OrbitControls />
           <directionalLight position={[-3, 4, 2]} />
@@ -45,7 +45,9 @@ const App = () => {
           <color args={["slategray"]} attach="background" />
           <mesh>
             <Html occlude center position={[0, 2, 0]}>
-              <h1 className="text-center text-4xl text-zinc-50">{state}</h1>
+              <h1 className="select-none text-center font-urbanistMedium text-4xl text-zinc-50">
+                {state}
+              </h1>
             </Html>
             <boxGeometry />
             <meshStandardMaterial color={"#BADA55"} />

@@ -63,3 +63,7 @@ npm build
 - React and EsLint configuration from this course page [Intro to React](https://react-v8.holt.courses/)
 - Tailwind Configuration from
   [Tooabstractive](https://tooabstractive.com/how-to-tech/no-utility-classes-were-detected-in-your-source-files-fixed//)
+
+#### Icons
+
+[https://www.svgrepo.com/collection/brankic-glyph-icons/](https://www.svgrepo.com/collection/brankic-glyph-icons/)
